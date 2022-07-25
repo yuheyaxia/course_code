@@ -1,0 +1,1 @@
+python -m tensorboard.main --log_dir data/log/TextCNN/07-23_09.59/ --bind_all
