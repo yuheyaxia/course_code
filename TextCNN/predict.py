@@ -66,7 +66,6 @@ if __name__ == '__main__':
 
     model.load_state_dict(torch.load(config.save_path, map_location=config.device))
     model.eval()
-    test_text = '词汇阅读是关键 08年考研暑期英语复习全指南'
-
+    test_text = '海淀区领秀新硅谷宽景大宅预计10月底开盘'
     
     print(predict(config, test_text, use_word=use_word))
